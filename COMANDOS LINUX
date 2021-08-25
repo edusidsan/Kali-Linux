@@ -24,4 +24,14 @@ git remote add origin https://github.com/edusidsan/Kali-Linux.git
 ## esse
 git push -u origin master
 
+## VERIFICAR QUAIS FILES PRECISAM SER ATUALIZADAS
+git status
+## Adicionar todos os FILES
+git add -A
+## instrução para fazer o upload para o repositório local
+git commit -m "first commit"
+## instrução para fazer upload para repositorio web
+git push -u origin master
+
+Access token - EXPIRA DIA NOV.23 2021
 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
