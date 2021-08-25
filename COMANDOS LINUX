@@ -5,3 +5,23 @@ python3 -m http.server 80
 ## UTILIZAÇÃO DE FTP
 pip install pyftpdlib
 python3 -m pyftpdlib -p 21 w
+
+## CRIAR REPOSITÓRIO GIT
+echo #KALI-LINUX" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+
+git config --global user.email "edu.sidnei@hotmail.com"
+git config --global user.name "edusidsan"
+
+
+git remote add origin https://github.com/edusidsan/Kali-Linux.git
+git push -u origin master
+
+## ATUALIZAR GIT COM REPOSITÓRIO EXISTENTE
+git remote add origin https://github.com/edusidsan/Kali-Linux.git
+## esse
+git push -u origin master
+
+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
