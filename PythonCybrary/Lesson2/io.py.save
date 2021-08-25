@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+
+def take_input():
+	
+x = input()
+	return x
+
+ret = take_input()
+print(ret)

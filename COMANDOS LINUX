@@ -1,0 +1,7 @@
+
+## CRIAÇÃO DE SERVIDOR
+python3 -m http.server 80  
+
+## UTILIZAÇÃO DE FTP
+pip install pyftpdlib
+python3 -m pyftpdlib -p 21 w
